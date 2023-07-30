@@ -1,6 +1,7 @@
-const tintColorLight = '#2f95dc';
-const tintColorDark = '#fff';
-
+const tintColorLight : string = '#2f95dc';
+const tintColorDark : string = '#fff';
+export const fristColor : string = 'hsl(0, 0%, 17%)';
+export const scoundColor : string = 'hsl(0, 0%, 59%)';
 export default {
   light: {
     text: '#000',
@@ -16,4 +17,5 @@ export default {
     tabIconDefault: '#ccc',
     tabIconSelected: tintColorDark,
   },
+
 };
